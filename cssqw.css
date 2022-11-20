@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background:linear-gradient(rgba(48, 198, 65, 0.708),rgba(29, 197, 163, 0.56)), url(./images/you.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.logo{
+    width: 80px;
+    border: 2px ;
+    top: 5%;
+    left: 5%;
+}
+.banner-text{
+    text-align: center;
+    color: orange;
+    font-size: 35px;
+    padding-top: 10%;
+}
+.banner-text h1{
+    font-size: 80px;
+}
+.banner-text p{
+    font-size: 30px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 20px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: 5px solid none;
+    position:relative;
+    z-index: 1;
+
+}
+.banner-btn a span{
+    width: 0;
+    height:100% ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: brown;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+padding: 3px;
+   width: 100%;
+    border-radius: 35px;
+}
+
+.side{
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+
+}
